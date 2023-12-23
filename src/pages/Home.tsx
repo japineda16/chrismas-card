@@ -9,7 +9,7 @@ function Home() {
   const state = React.createRef<Player>();
 
   return (
-    <div className="flex flex-col bg-green-700 h-screen flex items-center justify-center">
+    <div className="flex flex-col bg-green-700 py-10 min-h-screen flex items-center justify-center">
       <Fireworks />
       <div className="rounded-md bg-white w-[90%] md:w-1/2 min-h-[50%] p-4">
         <div className="mx-5">
